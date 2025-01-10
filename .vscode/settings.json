@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  // Set to false to avoid errors when using remappings
+  "solidity.monoRepoSupport": false,
+  "solidity.compileUsingRemoteVersion": "v0.8.26",
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.formatter": "forge",
+  "solidity.remappings": [
+    "@symbiotic-middleware/=lib/middleware-sdk/src/",
+    "@symbiotic-tests/=lib/symbiotic-core/test/",
+    "@symbiotic/=lib/symbiotic-core/src/"
+  ]
+}

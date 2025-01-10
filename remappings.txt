@@ -1,0 +1,5 @@
+@symbiotic-middleware/=lib/middleware-sdk/src/
+@symbiotic-tests/=lib/symbiotic-core/test/
+@symbiotic/=lib/symbiotic-core/src/
+@openzeppelin/contracts/=lib/middleware-sdk/lib/openzeppelin-contracts/contracts/
+@openzeppelin/contracts-upgradeable/=lib/middleware-sdk/lib/openzeppelin-contracts-upgradeable/contracts/
