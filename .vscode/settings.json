@@ -5,7 +5,7 @@
   },
   // Set to false to avoid errors when using remappings
   "solidity.monoRepoSupport": false,
-  "solidity.compileUsingRemoteVersion": "v0.8.26",
+  "solidity.compileUsingRemoteVersion": "v0.8.25",
   "solidity.packageDefaultDependenciesContractsDirectory": "src",
   "solidity.packageDefaultDependenciesDirectory": "lib",
   "solidity.formatter": "forge",

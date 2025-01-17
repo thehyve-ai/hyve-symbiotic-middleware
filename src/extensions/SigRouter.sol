@@ -31,7 +31,7 @@ abstract contract SigRouter is SigManager {
      */
     function getVerifier(
         uint8 version
-    ) external view returns (address) {
+    ) external view virtual returns (address) {
         return _verifiers[version];
     }
 

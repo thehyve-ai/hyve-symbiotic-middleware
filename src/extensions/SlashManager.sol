@@ -15,7 +15,6 @@ import {SlashManagerStorage} from "./SlashManagerStorage.sol";
  * @title Slash Manager
  * @notice This contract handles the slashing of operators. It is split so that
  *         storage is managed separately by the SlashManagerStorage library,
- *         following an upgrade-safe design (common in EIP-2535 Diamonds or proxy-based upgrades).
  */
 abstract contract SlashManager is BaseMiddleware, ISlashManager {
     using Subnetwork for address;
